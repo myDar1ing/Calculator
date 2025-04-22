@@ -66,7 +66,6 @@ class ViewController: UIViewController {
       return
     }
     guard let number1Value = Int(a), let number2Value = Int(b) else {
-      print("Enter the numbers")
       showResult.text="Enter the values"
       return
     }
