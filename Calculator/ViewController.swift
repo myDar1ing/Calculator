@@ -66,7 +66,7 @@ class ViewController: UIViewController {
       return
     }
     guard let number1Value = Int(a), let number2Value = Int(b) else {
-      showResult.text="Enter the values"
+      showResult.text="Please, Enter the values"
       return
     }
     let result = number1Value / number2Value
